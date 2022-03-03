@@ -1,4 +1,5 @@
-import React, {useState, useEffect, SetStateAction} from 'react';
+import React, {useState, useEffect} from 'react';
+import { Header } from './containers/Header'; 
 import './App.css'; 
 
 // Aqui a Arrow Function é exportada 
@@ -19,8 +20,7 @@ export const App = () => {
 
     return (
         <div>
-           <h1>  {process.env.REACT_APP_TITLE} </h1> 
-            <hr /> 
+           <Header /> 
           
           <input id='TN1' type='number' className='num1' onChange={(evt) => setNum1(evt.target.value)} value={num1}/>
 
