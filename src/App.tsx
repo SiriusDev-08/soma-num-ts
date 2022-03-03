@@ -22,9 +22,12 @@ export const App = () => {
         <div>
            <Header /> 
           
+          {/* Componente Input */}
           <input id='TN1' type='number' className='num1' onChange={(evt) => setNum1(evt.target.value)} value={num1}/>
 
           <input id='TN2' type='number' className='num2' onChange={(evt) => setNum2(evt.target.value)} value={num2}/>
+
+          {/* Componente Botão */}
           <div>
             <button className='click' onClick = {
                 () => setSoma(parseInt(num1) + parseInt(num2))
@@ -34,6 +37,8 @@ export const App = () => {
 
             <h2 className='result'> {soma}  </h2>
             </div> 
+
+            {/* Componente Footer */}
             <hr /> 
             <h2> {process.env.REACT_APP_FOOTER} </h2>
         </div>
