@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from 'react';
-import { Header } from './containers/Header'; 
-import { Footer } from './containers/Footer'; 
-import { Input } from './components/Input';
-import { Result } from './components/Result';
+import { Header } from '../../containers/Header/Header'; 
+import { Footer } from '../../containers/Footer/Footer'; 
+import { Input } from '../../components/Input/Input';
+import { Result } from '../../components/Result/Result';
 import './App.css'; 
 
 // Aqui a Arrow Function é exportada 

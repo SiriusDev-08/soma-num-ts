@@ -1,0 +1,22 @@
+.click {
+    display:flexbox; 
+    background-color: #0004fd;
+    color: aliceblue;
+    font-size:70px;
+    border-radius: 15px 30px 15px 30px;
+    padding: 20px 20px 20px 20px;
+    margin: 50px 50px 30px 20px; 
+    width: 200px;
+    height: 100px; 
+    text-align:center;
+    text-decoration: white;
+}
+
+.result {
+    display: flow-root;
+    text-align: center;
+    color: aliceblue;
+    height: 60px;
+    margin: 20px 35px 30px 20px; 
+    font-size: 30px;    
+}

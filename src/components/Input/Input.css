@@ -1,0 +1,13 @@
+.numInput {
+    width: 100px;
+    height: 100px;
+    margin: 40px 50px 30px 30px;
+    background: #a0d5f3; border: 1px solid #222;
+    border-radius: 0;
+    padding: 10px 20px;color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
