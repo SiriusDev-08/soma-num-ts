@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import { Header } from './containers/Header'; 
+import { Footer } from './containers/Footer'; 
 import './App.css'; 
 
 // Aqui a Arrow Function é exportada 
@@ -38,9 +39,7 @@ export const App = () => {
             <h2 className='result'> {soma}  </h2>
             </div> 
 
-            {/* Componente Footer */}
-            <hr /> 
-            <h2> {process.env.REACT_APP_FOOTER} </h2>
+            <Footer />            
         </div>
     ); 
 } 
