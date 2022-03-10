@@ -6,9 +6,6 @@ interface ResultProps {
     numB:string; 
 }
 
-
-
-
 export const Result = ({numA, numB}:ResultProps) => {
     let [soma,setSoma] = useState<number>(0); 
 
@@ -16,7 +13,7 @@ export const Result = ({numA, numB}:ResultProps) => {
         <div>
 
         <button className='click' onClick = {
-            () => setSoma(parseInt(numA) + parseInt(numB))
+            () => setSoma(parseInt(numA ? numA : "0") + parseInt(numB ? numB : "0"))
         }>
              +
         </button> 

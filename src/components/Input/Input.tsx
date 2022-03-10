@@ -16,6 +16,8 @@ export const Input = ( {numA, numB, setNumA, setNumB}:InputProps) => {
 
             <input id='TN2' type='number' className='numInput' onChange={(evt) => setNumB(evt.target.value)} value={numB}/>
 
+            <h2> teste teste</h2>
+
         </div>
     );
 }
